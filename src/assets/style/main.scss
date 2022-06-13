@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, p{
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+select{
+    cursor: pointer;
+}
+input,
+select{
+    outline: none;
+}
+
+// language ar
+.ar_direction{
+    direction: rtl;
+} 
+
+// custom class
+.flex_center{
+    display: flex;
+    justify-content: center;
+}
+.flex_all_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex_y_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex_space_between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionMT{
+    margin-top: 100px;
+}
+.sectionTitle{
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
